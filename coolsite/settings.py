@@ -24,11 +24,6 @@ SECRET_KEY = "django-insecure-iypk=u+()j(2+*ftpuu-49_d5r=qqsrk$pbh6=-o0qe&^!rv6q
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-if DEBUG:
-    import mimetypes
-
-    mimetypes.add_type("application/javascript", ".js", True)
-
 ROOT_URLCONF = "coolsite.urls"
 
 ALLOWED_HOSTS = ['127.0.0.1']
